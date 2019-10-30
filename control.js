@@ -3,10 +3,16 @@
 // Pedir con un prompt la contraseña
 // Si el nombre de usuario es "AdaLove" y la contraseña es "ada2019", mostrar un alerta diciendo "Bienvenida, AdaLove".\
 
-let nombreDeUsuario = prompt (`Ingresa tu nombre de usuario`);
+let nombreDeUsuarioIngresado = prompt (`Ingresa tu nombre de usuario`);
 
-let contraseñaDeUsuario = prompt (`Ingresa tu contraseña`);
+let contraseñaDeUsuarioIngresado = prompt (`Ingresa tu contraseña`);
 
-if ((nombreDeUsuario = "Adalove") && (contraseñaDeUsuario = "ada2019")) {
+let nombreDeUsuario = "Adalove"
+let contraseñaDeUsuario = "ada2019"
+if ((nombreDeUsuarioIngresado == nombreDeUsuario) && (contraseñaDeUsuarioIngresado == contraseñaDeUsuario)) {
   alert(`Bienvenida, ${nombreDeUsuario}`);
+}
+
+if ((nombreDeUsuarioIngresado != nombreDeUsuario)&& (contraseñaDeUsuarioIngresado != contraseñaDeUsuario)) {
+  alert(`Usuario incorrecto`)
 }
