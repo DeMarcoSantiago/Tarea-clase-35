@@ -3,6 +3,7 @@
 // Pedir con un prompt la contraseña
 // Si el nombre de usuario es "AdaLove" y la contraseña es "ada2019", mostrar un alerta diciendo "Bienvenida, AdaLove".\
 
+//esto es un comentario
 let nombreDeUsuarioIngresado = prompt (`Ingresa tu nombre de usuario`);
 
 let contraseñaDeUsuarioIngresado = prompt (`Ingresa tu contraseña`);
